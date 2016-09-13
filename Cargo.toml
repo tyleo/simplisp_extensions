@@ -1,0 +1,15 @@
+[dependencies]
+error-chain = "0.4.2"
+simplisp = "0.3"
+
+[package]
+authors = ["Tyler Wolf Leonhardt <tyler.wolf.leonhardt@gmail.com>"]
+description = "Provides some basic functions for simplisp."
+exclude = [
+    ".gitignore",
+    "build.proj",
+    "test/**"
+]
+license = "MIT"
+name = "simplisp_extensions"
+version = "0.3.0"
